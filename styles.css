@@ -10,14 +10,12 @@ a, #skills dl dd {-webkit-transition: all 0.15s ; -moz-transition: all 0.15s ; -
 
 /*   HEADER   */
 header.vcard {margin-bottom: 10px; overflow: hidden;}
-.fn {font-size: 2.7em; font-weight: bold; padding: 5px 0 5px 10px;}
+.fn {font-size: 2.7em; font-weight: bold; padding: 5px 0px;}
 .role {background: #999; color: #FCFCFC; font-weight: normal; margin: 4px 0 13px; padding: 5px 5px 5px 10px; -webkit-border-radius: 5px; border-radius: 5px; -webkit-box-shadow:  0px 1px 1px 0px rgba(0, 0, 0, 0.35);  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.15);}
-.contact {list-style: none; margin-bottom: 15px; overflow: hidden;}
-.contact li {border-right: 1px solid #ccc; display: inline; float: left; font-size: 0.8em; padding: 2px 0; text-align: center; width: 19.5%; overflow: hidden}
-.contact li:last-child {border: none}
-.contact a {color: #000;}
-.contact a:hover {background-color: #eee; text-decoration: none}
 
+.contact li{
+  padding: 0.4em;
+}
 
 /*   CONTENT   */
 section {font-size: 0.9em; margin: 30px 0; overflow: hidden; }
@@ -77,4 +75,44 @@ section p {line-height: 1.5em; padding: 0 20px 5px;}
   #experience article {margin: 40px 0 37px;}
   #experience article .start, #experience article .end {left: 0; top: -25px; border: none; border-right: 1px dashed #ddd;}
   #experience article .end {left: 61px; top: -25px; border: none}
+}
+
+
+
+
+.vcard {
+  display: flex;
+  align-items: center;
+}
+
+.header-content {
+  flex: 1;
+}
+
+.profile-image {
+  
+  width: 350px;
+  padding: 1em; /* Adjust the size as needed */
+  height: auto;
+  object-fit: cover; /* Ensures the image maintains its aspect ratio */
+}
+
+img{
+  border-radius: 30px !important; 
+}
+
+
+a {
+  color: inherit; /* Herda a cor do elemento pai */
+  text-decoration: none; /* Remove o sublinhado */
+}
+
+a:visited {
+  color: inherit; /* Herda a cor do elemento pai para links visitados */
+}
+
+a:hover,
+a:focus {
+  color: inherit; /* Mantém a mesma cor ao passar o mouse ou focar */
+  text-decoration: underline; /* Opcional: Adiciona sublinhado ao passar o mouse */
 }
