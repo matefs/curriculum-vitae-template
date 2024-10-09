@@ -91,7 +91,7 @@ section p {line-height: 1.5em; padding: 0 20px 5px;}
 
 .profile-image {
   
-  width: 350px;
+  width: 250px;
   padding: 1em; /* Adjust the size as needed */
   height: auto;
   object-fit: cover; /* Ensures the image maintains its aspect ratio */
