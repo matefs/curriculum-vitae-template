@@ -116,3 +116,8 @@ a:focus {
   color: inherit; /* Mantém a mesma cor ao passar o mouse ou focar */
   text-decoration: underline; /* Opcional: Adiciona sublinhado ao passar o mouse */
 }
+
+
+header li{
+  font-size:1em  !important;
+}
