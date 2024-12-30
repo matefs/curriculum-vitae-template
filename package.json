@@ -1,0 +1,17 @@
+{
+  "dependencies": {
+    "express": "^4.21.2",
+    "pug": "^3.0.3"
+  },
+  "name": "curriculum-vitae-template",
+  "version": "1.0.0",
+  "description": "![image](https://github.com/user-attachments/assets/8c878685-b83e-46bc-9735-f885ffa4ba4a)",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
