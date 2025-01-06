@@ -1,6 +1,6 @@
 # curriculum-vitae-template
 
-![image](https://github.com/user-attachments/assets/8c878685-b83e-46bc-9735-f885ffa4ba4a)
+ ![image](https://github.com/user-attachments/assets/123e9e7c-1b69-4fbc-9bfc-9b30b568f26a)
 
 ## Usage 
 - `npm install -g pug-cli`
