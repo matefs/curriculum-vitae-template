@@ -5,10 +5,10 @@
 ## Usage 
 - `npm install -g pug-cli`
 - `pug views/index.pug`
-
-
-[Edit in StackBlitz next generation editor ⚡️](https://stackblitz.com/~/github.com/matefs/curriculum-vitae-template)
-
+- Send `index.html` file to the link: 
+   - https://www.sejda.com/html-to-pdf#
+ 
+ 
 Inspiration:
 https://geekyorion.com/
 ![image](https://github.com/user-attachments/assets/49062e17-b339-4d51-86ad-734033bf5211)
